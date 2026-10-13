@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional — Presentación Individual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="site-header" role="banner">
+    <a href="#" class="logo" aria-label="Volver al inicio de Mi Portafolio">✦ Mi Portafolio</a>
+    <nav class="main-nav" role="navigation" aria-label="Menú Principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    
+    
+    <section class="hero" id="sobre-mi" aria-labelledby="titulo-hero">
+      <h1 id="titulo-hero">Desarrollo y Soluciones Informáticas</h1>
+      <p>Estudiante de Ingeniería Civil en Informática enfocado en el desarrollo backend, bases de datos relacionales y diseño de interfaces web accesibles y responsivas.</p>
+    </section>
+
+    
+    <section class="projects-section" id="proyectos" aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos">Proyectos y Prácticas Académicas</h2>
+      <p class="section-subtitle">Soluciones desarrolladas durante el año abarcando ingeniería de software, redes y algoritmos.</p>
+
+      <div class="projects-grid">
+        
+        
+        <article class="card featured" aria-labelledby="proy-1-title">
+          <header>
+            <span class="badge" aria-hidden="true">Destacado</span>
+            <h3 id="proy-1-title">Sistema Araucanía Hospeda</h3>
+          </header>
+          <p>Diseño e implementación de base de datos relacional para la gestión integral de alojamientos, reservas y clientes.</p>
+          <footer class="card-footer">
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>MySQL</li>
+              <li>SQL</li>
+              <li>XAMPP</li>
+            </ul>
+          </footer>
+        </article>
+
+        
+        <article class="card" aria-labelledby="proy-2-title">
+          <header>
+            <h3 id="proy-2-title">Visualizador de Límites</h3>
+          </header>
+          <p>Aplicación de interfaz gráfica optimizada para el cálculo y visualización matemática de límites de funciones en Cálculo.</p>
+          <footer class="card-footer">
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>Python</li>
+              <li>CustomTkinter</li>
+              <li>Matplotlib</li>
+            </ul>
+          </footer>
+        </article>
+
+        
+        <article class="card" aria-labelledby="proy-3-title">
+          <header>
+            <h3 id="proy-3-title">Algoritmo de Dijkstra</h3>
+          </header>
+          <p>Visualización interactiva para encontrar la ruta más óptima entre ciudades aplicando teoría de grafos.</p>
+          <footer class="card-footer">
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>Python</li>
+              <li>NetworkX</li>
+              <li>Grafos</li>
+            </ul>
+          </footer>
+        </article>
+
+        
+        <article class="card" aria-labelledby="proy-4-title">
+          <header>
+            <h3 id="proy-4-title">Simulación de Redes PYME</h3>
+          </header>
+          <p>Diseño, direccionamiento IP (IPv4/IPv6) y configuración de infraestructura de red local para entorno corporativo.</p>
+          <footer class="card-footer">
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>Packet Tracer</li>
+              <li>Redes</li>
+              <li>IPv4/IPv6</li>
+            </ul>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+
+    <section class="contact-section" id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto Profesional</h2>
+      <p>¿Interesado en conocer más sobre mis proyectos o coordinar una entrevista? Envíame un mensaje.</p>
+      
+      <form class="contact-form" action="#" method="POST" aria-label="Formulario de contacto">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@correo.com" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit" aria-label="Enviar formulario de mensaje">Enviar Mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; 2026 — Ingeniería Civil en Informática | Universidad Católica de Temuco</p>
+  </footer>
+
+</body>
+</html>
